@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements IMview,XListView.
 
     @Override
     public void onLoadMore() {
-        //sa
+        
         Toast.makeText(this,"上拉加载",Toast.LENGTH_SHORT).show();
         a++;
         getURL(a,this);
